@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-I am a First Year Physics Grad Student at Ohio State University.
