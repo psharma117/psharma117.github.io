@@ -21,9 +21,7 @@
 title: Pranav Sharma's Home Page
 email: sharma.1098@osu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is my blog where I'll post physics explanations: be it physics that I do or physics that I frequently end up explaining to students or laymen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
