@@ -10,7 +10,14 @@ So, I'm going to explain myself in three different ways accordingly.
 
 # Non-Physicists 
 I work on what's called the nuclear many-body problem.
-![My work is aimed here, at the center of atoms! Image by Wikimedia User Yzmo - Own work, CC BY-SA 3.0,](/assets/images/wiki_nucleus_atom.png)
+
+<figure style="text-align: center; padding: 1em 0;">
+  <img src="/assets/images/wiki_nucleus_atom.png" alt="An atomic nucleus in the middle of an atom" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+    Image by Wikimedia user Yzmo – CC BY-SA 3.0
+  </figcaption>
+</figure>
+
 This means I'm trying to contribute to how we understand what happens when we have many protons and neutrons all interacting with each other at the center of atoms or in stars.
 There are a variety of resolution scales that we think of the nuclear many-body problem in: 
 - **Quarks and Gluons** are the things that make up all of the particles in a nucleus. 
