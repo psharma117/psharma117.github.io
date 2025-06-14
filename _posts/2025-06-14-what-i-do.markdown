@@ -13,7 +13,7 @@ I work on what's called the nuclear many-body problem.
 
 <figure style="text-align: center; padding: 1em 0;">
   <img src="/assets/images/wiki_nucleus_atom.png" alt="An atomic nucleus in the middle of an atom" style="max-width: 100%; height: auto;">
-  <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+  <figcaption style="font-size: 0.85em; color: #ff00ff; margin-top: 0.5em;">
     Image by Wikimedia user Yzmo – CC BY-SA 3.0
   </figcaption>
 </figure>
