@@ -11,12 +11,12 @@ So, I'm going to explain myself in three different ways accordingly.
 # Non-Physicists 
 I work on what's called the nuclear many-body problem.
 
-<figure style="text-align: center; padding: 1em 0;">
-  <img src="/assets/images/wiki_nucleus_atom.png" alt="Nucleus diagram" style="max-width: 100%; height: auto;" />
-  <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
-    Image by Wikimedia user Yzmo – CC BY-SA 3.0
-  </figcaption>
-</figure>
+<!-- <figure style="text-align: center; padding: 1em 0;"> -->
+<!--   <img src="/assets/images/wiki_nucleus_atom.png" alt="Nucleus diagram" style="max-width: 100%; height: auto;" /> -->
+<!--   <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;"> -->
+<!--     Image by Wikimedia user Yzmo – CC BY-SA 3.0 -->
+<!--   </figcaption> -->
+<!-- </figure> -->
 
 This means I'm trying to contribute to how we understand what happens when we have many protons and neutrons all interacting with each other at the center of atoms or in stars.
 There are a variety of resolution scales that we think of the nuclear many-body problem in: 
@@ -30,5 +30,10 @@ This is the most "zoomed out" picture that I engage with.
 
 The name of the theoretical framework for the level of densities and currents is *Density Functional Theory (DFT)*. 
 In a more ``zoomed in'' perspective, we would want to calculate (or approximate) the energy of each particle from every other particle.
+This gets cumbersome and quite infeasible as the number of particles involved gets larger, like for heavier nuclei. 
+In DFT we instead talk about the energy of the system in terms of (at bare minimum) a density of particles.
+As an example of the distinction, I can think of the way 
+
+
 
 
