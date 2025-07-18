@@ -31,7 +31,21 @@ The name of the theoretical framework for the level of densities and currents is
 In a more ''zoomed in'' perspective, we would want to calculate (or approximate) the energy of each particle from every other particle.
 This gets cumbersome and quite infeasible as the number of particles involved gets larger, like for heavier nuclei. 
 In DFT we instead talk about the energy of the system in terms of (at bare minimum) a density of particles.
-As an example of the distinction between zoom levels, I can think of the way individual H$_2$O molecules are interacting when I have water in a bucket, or I can just talk about the distribution of water at different points in the bucket. 
+
+As a very simplified example of the distinction between zoom levels, I can think of the way individual H$_2$O molecules are interacting when I have water in a bucket, or I can just talk about the distribution of water at different points in the bucket. 
+If we leave the water alone and it's allowed to just relax, we know it'll settle and form a cylinder with a flat top inside the bucket.
+This is known as the *ground state* of the water. 
+In this simple analogy, DFT says that if you have the correct shape that the water is distributed in while it's in its ground state, you can get all measurable properties of the system. 
+To do something roughly like DFT on the water, we'd then need a good model of how water behaves, which accurately includes features such as water's surface tension (in case we put it in a container that it completely fills), its viscosity (if we poke the water, it doesn't stay dented for a while), and so on. 
+The technical term for such a model is the Energy Density Functional (EDF). 
+Slightly more specifically, the EDF is a rule that says: If you give me some description of the distribution of whatever you're describing, I'll tell you the energy associated with it.
+
+As a reminder, the water bucket is a very simplified analogy to help me communicate the ideas involved in my work.
+The EDF tells us all the energies that we could get, but we don't know the correct EDF!
+Informed by experimental findings, we can write down EDFs that we can make match data to good precision.
+This is what's done currently, and it has worked pretty well at matching results that we measure, with some changes of numbers in the EDF to emphasize different features of different kinds of nuclei.
+
+
 
 
 
