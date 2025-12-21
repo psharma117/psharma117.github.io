@@ -57,6 +57,7 @@ In DFT we instead talk about the energy of the system in terms of (at bare minim
 As a very simplified example of the distinction between zoom levels when describing the same system, I can think of the way individual H$_2$O molecules are interacting when I have water in a bucket, or I can just talk about the distribution of water at different points in the bucket. 
 Thinking in terms of the H$_2$O molecules, I'd have to think about how the molecules interact with each other, how their bonds affect the basic attraction and repulsion that all charged particles experience.
 I would have to find clever ways of using and obtaining information about what all the particles are doing at any instant in time.
+I could also think of the collective variable: the distribution of the water in the bucket.
 If we leave the water alone and it's allowed to just relax, we know it'll settle and form a cylinder with a flat top inside the bucket.
 This is known as the *ground state* of the water. 
 In this simple analogy, DFT says that if you have the correct shape that the water is distributed in while it's in its ground state, you can get all measurable properties of the system. 
