@@ -5,17 +5,38 @@ date:   2025-06-14 13:19:19 -0500
 categories: everyone
 ---
 
+<!--
+Source - https://stackoverflow.com/a
+Posted by nullromo
+Retrieved 2025-12-20, License - CC BY-SA 4.0
+-->
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    }
+  };
+</script>
+
+
 I have different ways of discussing my research with non-physicists, physics students, and physicists. 
 So, I'm going to explain myself in three different ways accordingly. 
 
 # Non-Physicists 
 I work on what's called the nuclear many-body problem.
+My work lives in a small region of the atom, as pictured here
 <figure style="text-align: center; padding: 1em 0;">
   <img src="/assets/images/wiki_nucleus_atom.png" alt="Nucleus diagram" style="max-width: 100%; height: auto;" />
   <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
     Image by Wikimedia user Yzmo – CC BY-SA 3.0
   </figcaption>
 </figure>
+
 
 This means I'm trying to contribute to how we understand what happens when we have many protons and neutrons all interacting with each other at the center of atoms or in stars.
 There are a variety of resolution scales that we think of the nuclear many-body problem in: 
@@ -40,10 +61,18 @@ To do something roughly like DFT on the water, we'd then need a good model of ho
 The technical term for such a model is the Energy Density Functional (EDF). 
 Slightly more specifically, the EDF is a rule that says: If you give me some description of the distribution of whatever you're describing, I'll tell you the energy associated with it.
 
-As a reminder, the water bucket is a very simplified analogy to help me communicate the ideas involved in my work.
+As a reminder, the water bucket is a very simplified analogy to help me communicate the idea of changing your description based on how ``zoomed in'' you are since that's a crucial idea in my work.
 The EDF tells us all the energies that we could get, but we don't know the correct EDF!
 Informed by experimental findings, we can write down EDFs that we can make match data to good precision.
 This is what's done currently, and it has worked pretty well at matching results that we measure, with some changes of numbers in the EDF to emphasize different features of different kinds of nuclei.
+I'm working on improving EDFs at the level of the formulation.
+Everything we write down in physics theory is an approximation, and EDFs are no exception.
+To describe the idea better, it's once again helpful to use an analogy.
+
+Let's say you wanted to calculate the circumference of a circle in order to perfectly wrap a ribbon around a disk or something like that.
+A quick Google search tells you that the circumference of a circle with a diameter $D$ is $\pi\times D$.
+Now, $\pi$ is an infinite decimal equal to 3.1415927... blah blah blah. 
+You can get an approximation to the 
 
 
 
