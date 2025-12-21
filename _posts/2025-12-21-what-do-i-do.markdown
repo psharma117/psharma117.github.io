@@ -86,6 +86,14 @@ Obviously, we're not going to get the exact amount of ribbon we need because we 
 We could improve on my approximation by including another digit: if we get $3.1\times 2 = 6.2$ meters of ribbon, we'll be closer to what we actually need.
 But we could do other things too!
 We can approximate the circle as a square with a side length of 2 meters, and get enough material to wrap around the square.
+
+<figure style="text-align: center; padding: 1em 0;">
+  <img src="/assets/images/circle_approx.png" alt="Approximating a circle's perimeter with a square, hexagon, octagon etc." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+    Image made by me in Inkscape 
+  </figcaption>
+</figure>
+
 This will have me getting too much ribbon.
 We can improve on this approximation by instead approximating the circle as a hexagon with a distance of 2 meters between opposite sides.
 A still better approximation comes with treating it as an octogon with a distance of 2 meters between opposite sides.
