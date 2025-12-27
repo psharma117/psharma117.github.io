@@ -121,13 +121,22 @@ You're only limited in your ribbon cutting adventures by how many digits of pi y
 If we have 6.2 meters of ribbon and want to do better, we can just add another digit of $\pi$. 
 If we want to do better still, another digit.
 We know exactly what to do to improve our approximations: it's systematic.
-In the nuclear many-body problem, we must formulate our approximations in more complicated ways because the problem is much more complicated.
+The nuclear many-body problem is substantially more complicated than ribbon wrapping a disc, so the nature of the approximations and the concepts used is similarly more complicated.
+But the spirit of trying to figure out ways to get as close to a correct answer as possible is the same.
 
 With all of these ideas in mind, I can now succinctly answer the question posed by this article: What Do I Do?
-I focus on elements of nuclear interactions and properties, and try to formulate systematically improvable approximations to calculate the observable collective features of nuclei to bridge pictures at the resolution of **Nucleons and Mesons** with the picture of **Densities and Currents**
+I study elements of nuclear interactions and properties of nuclear structure, trying to formulate systematically improvable approximations to calculate the observable collective features of nuclei to bridge pictures at the resolution of **Nucleons and Mesons** with the picture of **Densities and Currents**
 
 
+# Physics students
+**Disclaimer: ** _I know that students have the largest spread in knowledge of the three categories I listed, so I'm writing this for a student who has seen some quantum mechanics already. Even within that scope, there is variance, so I have done my best to write this so that if something is unfamiliar, the intro paragraph of the relevant wiki page helps the reader understand a term/idea so they can keep reading. Please feel free to contact me if you see a way for me to improve my approach to this goal._
 
+The nucleus is a system of multiple fermions that all interact with each other. 
+You may have written and solved the Schrodinger equation down for a particle (or a pair of particles) interacting with a background potential and each other.
+Having $\mathcal{O}(10^2)$ or more particles makes the problem considerably more complicated.
+Even worse, our potential is not a simple closed form like the Coulomb potential is: it's an infinite series of terms that comes from an Effective Field Theory expansion, and we must truncate it at a given order of the expansion.
+This is all motivation for a Density Functional approach: trade in our $N$-particle state for a density (or a few types of densities) that captures all the physics we want:
+$$\Psi(\vec{r}_1, \sigma_1; \vec{r}_2, \sigma_2; \ldots) \to \rho(\vec{r})$$
 
 
 
