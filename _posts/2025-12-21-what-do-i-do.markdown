@@ -58,6 +58,14 @@ As a very simplified example of the distinction between zoom levels when describ
 Thinking in terms of the H$_2$O molecules, I'd have to think about how the molecules interact with each other, how their bonds affect the basic attraction and repulsion that all charged particles experience.
 I would have to find clever ways of using and obtaining information about what all the particles are doing at any instant in time.
 I could also think of the collective variable: the distribution of the water in the bucket.
+
+<figure style="text-align: center; padding: 1em 0;">
+  <img src="/assets/images/buckets.png" alt="Two views of water in a bucket: a collection of molecules wizzing around (left) and a fluid that ripples and flows (right)" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+    Two ways of looking at the same system! A "microscopic" POV on the left where we resolve molecules, and a "collective" POV on the right where we treat the fluid as its own entity that ripples and flows. Image made by me in Inkscape 
+  </figcaption>
+</figure>
+
 If we leave the water alone and it's allowed to just relax, we know it'll settle and form a cylinder with a flat top inside the bucket.
 This is known as the *ground state* of the water. 
 In this simple analogy, DFT says that if you have the correct shape that the water is distributed in while it's in its ground state, you can get all measurable properties of the system. 
