@@ -129,14 +129,17 @@ I study elements of nuclear interactions and properties of nuclear structure, tr
 
 
 # Physics students
-**Disclaimer: ** _I know that students have the largest spread in knowledge of the three categories I listed, so I'm writing this for a student who has seen some quantum mechanics already. Even within that scope, there is variance, so I have done my best to write this so that if something is unfamiliar, the intro paragraph of the relevant wiki page helps the reader understand a term/idea so they can keep reading. Please feel free to contact me if you see a way for me to improve my approach to this goal._
+**Disclaimer:** _I know that students have the largest spread in knowledge of the three categories I listed, so I'm writing this for a student who has seen some quantum mechanics already. Even within that scope, there is variance, so I have done my best to write this so that if something is unfamiliar, the intro paragraph of the relevant wiki page helps the reader understand a term/idea so they can keep reading. Please feel free to contact me if you see a way for me to improve my approach to this goal._
 
 The nucleus is a system of multiple fermions that all interact with each other. 
 You may have written and solved the Schrodinger equation down for a particle (or a pair of particles) interacting with a background potential and each other.
 Having $\mathcal{O}(10^2)$ or more particles makes the problem considerably more complicated.
 Even worse, our potential is not a simple closed form like the Coulomb potential is: it's an infinite series of terms that comes from an Effective Field Theory expansion, and we must truncate it at a given order of the expansion.
 This is all motivation for a Density Functional approach: trade in our $N$-particle state for a density (or a few types of densities) that captures all the physics we want:
-$$\Psi(\vec{r}_1, \sigma_1; \vec{r}_2, \sigma_2; \ldots) \to \rho(\vec{r})$$
+
+```math
+\Psi(\vec{r}_1, \sigma_1; \vec{r}_2, \sigma_2; \ldots) \to \rho(\vec{r})
+```
 
 
 
