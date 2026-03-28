@@ -143,9 +143,9 @@ Having $\mathcal{O}(10^2)$ or more particles makes the problem considerably more
 Even worse, our potential is not a simple closed form like the Coulomb potential is: it's an infinite series of terms that comes from an Effective Field Theory expansion, and we must truncate it at a given order of the expansion.
 This is all motivation for a Density Functional approach: trade in our $N$-particle state for a density (or a few types of densities) that captures all the physics we want:
 
-```math
+$$
 \Psi(\vec{r}_1, \sigma_1; \vec{r}_2, \sigma_2; \ldots) \to \rho(\vec{r})
-```
+$$
 
 
 
