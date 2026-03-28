@@ -140,12 +140,19 @@ I study elements of nuclear interactions and properties of nuclear structure, tr
 The nucleus is a system of multiple fermions that all interact with each other. 
 You may have written and solved the Schrodinger equation down for a particle (or a pair of particles) interacting with a background potential and each other.
 Having $\mathcal{O}(10^2)$ or more particles makes the problem considerably more complicated.
-Even worse, our potential is not a simple closed form like the Coulomb potential is: it's an infinite series of terms that comes from an Effective Field Theory expansion, and we must truncate it at a given order of the expansion.
-This is all motivation for a Density Functional approach: trade in our $N$-particle state for a density (or a few types of densities) that captures all the physics we want:
+Even worse, our potential is not a simple closed form like the Coulomb potential is: it's an infinite series of terms that comes from something called an Effective Field Theory expansion, and we must truncate this series of terms at a given order of the expansion.
+This is all motivation for a Density Functional approach: trade in our $N$-particle state for a density (or a few types of densities) that captures all the physics we want.
+Schematically,
 
 $$
 \Psi(\vec{r}_1, \sigma_1; \vec{r}_2, \sigma_2; \ldots) \to \rho(\vec{r})
 $$
+
+This is formally a very strongly supported idea: there are strong theorems called the Hohenberg–Kohn theorems
+which guarantee that the ground state energy as a functional of (at least) the particle density is well-determined by the interactions between particles.
+In fact, the interesting part of the functional $E[\rho(x)]$ is _universal_ for a given inter-particle interaction.
+The particular system at play is specified by the normalization of the density (more particles means that the integral of $\rho$ should be a higher number) and the external potential.
+An external potential might be something like an external EM field, a gravitational field, anything that interacts with the particles that's not one of the other particles.
 
 
 
