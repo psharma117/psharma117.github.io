@@ -73,7 +73,6 @@ To do something roughly like DFT on the water, we'd then need a good model of ho
 The technical term for such a model is the Energy Density Functional (EDF). 
 Slightly more specifically, the EDF is a rule that says: If you give me some description of the distribution of whatever you're describing, I'll tell you the energy associated with it.
 Once I know how the system is distributed in the ground state, I can calculate anything I want about the properties of the system.
-In the ground
 
 As a reminder, the water bucket is a very simplified analogy to help me communicate the idea of changing your description based on how ``zoomed in'' you are since that's a crucial idea in my work.
 The EDF tells us all the energies that we could get, but we don't know the correct EDF!
@@ -126,8 +125,9 @@ But the spirit of trying to figure out ways to get as close to a correct answer 
 
 With all of these ideas in mind, I can now succinctly answer the question posed by this article: What Do I Do?
 I study elements of nuclear interactions and properties of nuclear structure, trying to formulate systematically improvable approximations to calculate the observable collective features of nuclei to bridge pictures at the resolution of **Nucleons and Mesons** with the picture of **Densities and Currents**
+
 <figure style="text-align: center; padding: 1em 0;">
-  <img src="/assets/images/particles_vs_currents.png" alt="Approximating a circle's perimeter with a square, hexagon, octagon etc." style="max-width: 100%; height: auto;" />
+  <img src="/assets/images/particles_vs_currents.png" alt="I work on approximations to let us go between a picture of particles in the nucleus, and a picture of densities and currents in the nucleus!" style="max-width: 100%; height: auto;" />
   <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
     Image made by me in Inkscape 
   </figcaption>
