@@ -126,6 +126,12 @@ But the spirit of trying to figure out ways to get as close to a correct answer 
 
 With all of these ideas in mind, I can now succinctly answer the question posed by this article: What Do I Do?
 I study elements of nuclear interactions and properties of nuclear structure, trying to formulate systematically improvable approximations to calculate the observable collective features of nuclei to bridge pictures at the resolution of **Nucleons and Mesons** with the picture of **Densities and Currents**
+<figure style="text-align: center; padding: 1em 0;">
+  <img src="/assets/images/particles_vs_currents.png" alt="Approximating a circle's perimeter with a square, hexagon, octagon etc." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+    Image made by me in Inkscape 
+  </figcaption>
+</figure>
 
 
 # Physics students
