@@ -119,9 +119,12 @@ These approximations should work well and should be systematically improvable.
 You're only limited in your ribbon cutting adventures by how many digits of pi you have access to, you can keep improving it!
 If we have 6.2 meters of ribbon and want to do better, we can just add another digit of $\pi$. 
 If we want to do better still, another digit.
-We know exactly what to do to improve our approximations: it's systematic.
+Using the other approximation, we can just keep adding more and more sides to the shape we're approximating the circle with.
+In both cases, we know exactly what to do to improve our approximations: it's systematic.
 The nuclear many-body problem is substantially more complicated than ribbon wrapping a disc, so the nature of the approximations and the concepts used is similarly more complicated.
 But the spirit of trying to figure out ways to get as close to a correct answer as possible is the same.
+Understanding the nature of the problem well is essential here - to come up with the idea of using shapes with more sides requires that you have a clear picture of what you're dealing with and how to break down the difficulty into something you can systematically improve.
+Similarly, I have to really understand the essential mechanisms behind features of nuclei that I want to formulate a new way of approximating and calculating.
 
 With all of these ideas in mind, I can now succinctly answer the question posed by this article: What Do I Do?
 I study elements of nuclear interactions and properties of nuclear structure, trying to formulate systematically improvable approximations to calculate the observable collective features of nuclei to bridge pictures at the resolution of **Nucleons and Mesons** with the picture of **Densities and Currents**
@@ -134,7 +137,7 @@ I study elements of nuclear interactions and properties of nuclear structure, tr
 </figure>
 
 
-# Physics students
+# Physics students [Incomplete as of now!]
 **Disclaimer:** _I know that students have the largest spread in knowledge of the three categories I listed, so I'm writing this for a student who has seen some quantum mechanics already. Even within that scope, there is variance, so I have done my best to write this so that if something is unfamiliar, the intro paragraph of the relevant wiki page helps the reader understand a term/idea so they can keep reading. Please feel free to contact me if you see a way for me to improve my approach to this goal._
 
 The nucleus is a system of multiple fermions that all interact with each other. 
